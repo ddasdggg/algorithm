@@ -16,11 +16,11 @@ public class CaseConversion {
     }
 
     public static void main(String[] args) {
-        Main main = new CaseConversion();
+        CaseConversion caseConversion = new CaseConversion();
 
         Scanner keyboard = new Scanner(System.in);
 
         String s = keyboard.next();
-        System.out.println(main.solution(s));
+        System.out.println(caseConversion.solution(s));
     }
 }
