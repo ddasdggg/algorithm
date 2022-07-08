@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Main {
+public class FindCharacter {
     public int solution(String s, char c) {
         int answer = 0;
 
@@ -17,12 +17,12 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        Main main = new Main();
+        FindCharacter findCharacter = new FindCharacter();
         Scanner keyboard = new Scanner(System.in);
 
         String s = keyboard.next();
         char c = keyboard.next().charAt(0);
 
-        System.out.println(main.solution(s, c));
+        System.out.println(findCharacter.solution(s, c));
     }
 }
