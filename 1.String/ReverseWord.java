@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class WordReverse {
+public class ReverseWord {
     public ArrayList<String> solution(String[] sa) {
         ArrayList<String> answer = new ArrayList<>();
 
@@ -14,7 +14,7 @@ public class WordReverse {
     }
 
     public static void main(String[] args) {
-        WordReverse wordReverse = new WordReverse();
+        ReverseWord reverseWord = new ReverseWord();
 
         Scanner keyboard = new Scanner(System.in);
 
@@ -24,7 +24,7 @@ public class WordReverse {
             sa[i] = keyboard.next();
         }
 
-        for (String str : wordReverse.solution(sa)) {
+        for (String str : reverseWord.solution(sa)) {
             System.out.println(str);
         }
     }
