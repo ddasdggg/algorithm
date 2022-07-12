@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class NumberExtraction {
     public int solution(String str) {
         int answer;
-        str = str.toUpperCase().replaceAll("[^0-9]","");
+        str = str.toUpperCase().replaceAll("[^0-9]", "");
         answer = Integer.parseInt(str);
         return answer;
     }
