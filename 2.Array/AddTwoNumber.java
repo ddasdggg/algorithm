@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class TwoNumberSum {
+public class AddTwoNumber {
     public int[] solution(int[] nums, int target) {
         int[] result = new int[2];
         for (int i = 0; i < nums.length; i++) {
